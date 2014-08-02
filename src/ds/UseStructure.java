@@ -46,7 +46,7 @@ public class UseStructure {
 				
 	}
 	//Retrieve data and return as Stack order
-	public Stack<String> returnByStack(Stack<String> name){
+	public List<String> returnByStack(Stack<String> name){
 			
 					
 	return stack;
@@ -59,10 +59,10 @@ public class UseStructure {
 				
 	}
 	//Retrieve data and return in Queue order
-	public Queue<String> returnByQueue(Queue<String> name){
-			
+	public List<String> returnByQueue(Queue<String> name){
+	List<String> list = new LinkedList<String>();	
 					
-	return queue;
+	return list;
 					
 	}
 		
