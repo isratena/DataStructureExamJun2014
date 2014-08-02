@@ -2,15 +2,16 @@ package ds;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
 public class UseStructure {
 	
-	LinkedList<String> list;
-	ArrayList<String> arrayList;
-	Stack<String> stack;
-	Queue<String> queue;
+	LinkedList<String> list = new LinkedList<String>();
+	ArrayList<String> arrayList = new ArrayList<String>();
+	Stack<String> stack = new Stack<String>();
+	Queue<String> queue = new LinkedList<String>();
 	
 	//add data into the LinkedList
 	public void addByLinkedList(String name){
@@ -18,7 +19,7 @@ public class UseStructure {
 		
 	}
 	//Retrieve data and return the LinkedList
-	public LinkedList<String> returnByLinkedList(String name){
+	public List<String> returnByLinkedList(LinkedList<String> name){
 	
 			
 	return list;
@@ -32,7 +33,7 @@ public class UseStructure {
 			
 	}
 	//Retrieve data and return the ArrayList
-	public ArrayList<String> returnByArrayList(String name){
+	public ArrayList<String> returnByArrayList(ArrayList<String> name){
 		
 				
 	return arrayList;
@@ -45,7 +46,7 @@ public class UseStructure {
 				
 	}
 	//Retrieve data and return as Stack order
-	public Stack<String> returnByStack(String name){
+	public Stack<String> returnByStack(Stack<String> name){
 			
 					
 	return stack;
@@ -58,7 +59,7 @@ public class UseStructure {
 				
 	}
 	//Retrieve data and return in Queue order
-	public Queue<String> returnByQueue(String name){
+	public Queue<String> returnByQueue(Queue<String> name){
 			
 					
 	return queue;
