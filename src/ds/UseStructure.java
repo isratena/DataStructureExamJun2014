@@ -62,37 +62,41 @@ return arrayList;
 			System.out.println("stack: "+name);}
 		
 		//Retrieve data and return as Stack order
-//		public Stack<String> returnByStack(Stack<String> name){
-//
-//       while(!stack.isEmpty()){
-//    	   Iterator it = stack.iterator();
-//		if(it.hasNext())
-//			System.out.println(it.next());
-//       
-//
-//
-//		//return name;
-//	return name;}
+		public Stack<String> returnByStack(Stack<String> name){
+
+       while(!stack.isEmpty()){
+    	   Iterator it = stack.iterator();
+		if(it.hasNext())
+			System.out.println(it.next());
+       }
 
 
-		//}
+		//return name;
+	return name;}
+
+
+		
 		//add data in Queue order
 		public void addByQueue(String name){
 			queue.add(name);
 			System.out.println("Queue: "+ name);
        }
 		//Retrieve data and return in Queue order
-//		public Queue<String> returnByQueue(Queue<String> name){
-//			//list.queue= name;
-//			Iterator it = queue.iterator();
-//			while(it.hasNext()){
-//				System.out.println(it.next());
-//
-//          return name;
-//
-//
-//		}
-//
-//
-//		}
-}
+		public List<String> returnByQueue(Queue<String> name){
+			
+			Queue<String> list = name;	
+
+			Iterator<String> itr = queue.iterator();
+
+			while(itr.hasNext())
+             {
+              System.out.println(itr.next());
+           
+             return list;
+             }
+
+
+
+			}
+
+		}

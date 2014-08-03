@@ -12,7 +12,8 @@ public class ApplyDS {
 		st.addByArrayList("Ariana");
 		st.addByQueue("flower");
 		st.addByStack("Laptop");
-		st.returnByLinkedList();
+		st.returnByArrayList("DeskTop");
+		st.returnByLinkedList("Rose");
 		
 		
 		

@@ -9,11 +9,11 @@ public class UseMap {
 	//Implement a method which can add data into a Map
 	public void addElementByMap(String data){
 		Map<String,Integer> map = new HashMap();
-		map.put("Mm", 1);
-		map.put("Aa", 2);
-		map.put("Cc", 3);
-		map.put("Dd", 4);
-		
+		map.put("a", 1);
+		//map.put("Aa", 2);
+		//map.put("Cc", 3);
+		//map.put("Dd", 4);
+		System.out.println();
 		
 	}
 	
