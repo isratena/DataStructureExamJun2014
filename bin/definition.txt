@@ -1,58 +1,112 @@
 Data Structure Definition:
 
-
 1) why do we need data structure?
 
-answer:
+We need data structures to allow us to do more: for example, to accomplish fast searching or sorting of data. Other times, we need data structures so that we can do less: for example, the concept of the stack is a limited form of a more general data structure. These limitations provide us with guarantees that allow us to reason about our programs more easily.
 
 2) List out the areas in which data structures are applied extensively?
 
+ Compiler Design, Operating System, Database Management System, Statistical analysis package, Numerical Analysis, Graphics, Artificial Intelligence, Simulation
+
 3) what is an Array?
+
+An array is a type of variable that can store multiple values. The array is an object in Java that contains similar data type values.
 
 4) what is the difference between the Array and ArrayList?
 
+In array we can put limited data but in arrayList we can add unlimited data.
+
 5) what is LinkedList?
+
+a linked list is a data structure consisting of a group of nodes which together represent a sequence.
 
 6) what is queue?
 
+Queue is a particular kind of abstract data type or collection in which the entities in the collection are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position. This makes the queue a First-In-First-Out (FIFO) data structure.
+
+
 7) what is stack?
+
+Stack is the collection of the addition of an entity to the collection, known as push and removal of an entity, known as pop. In a LIFO data structure, the last element added to the structure must be the first one to be removed.
+
 
 8) what is FIFO and LIFO?
 
+FIFO means First In First Out and LIFO means Last In First Out.
+
 9) what is the order of complexity?
+
+Big O and complexity are really just two terms for the same thing. You can say "linear complexity" instead of O(n), quadratic complexity instead of O(n²), etc...
+
+ 
 
 10)what is the best case to search an element from an array?
 
+O(n).
+For searching array a linear search, it is the best case.
+
+
 11)what is the worst case to search an element from an array?
+
+ If the search items are at the end of the list in a linear search, it is the worst case
 
 12) what is tree in data structure?
 
+
 13) what is graph in data structure?
+
+A graph is an abstract data type that is meant to implement the graph and hyper graph concepts from mathematics.
+
 
 14) what is the difference between the HashTable and HashMap?
 
+Hashtable is synchronized whereas hashmap is not. 2)Another difference is that iterator in the HashMap is fail-safe while the enumerator for the Hashtable isn't. If you change the map while iterating, you'll know. 3)HashMap permits null values in it, while Hashtable doesn't.
+
+
+
 15) What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+
+1. RDBMS: Array (i.e. Array of structures)
+2. Network data model : Graph
+3. Hierarchical data model : Trees.
 
 16) How HashMap works in java?
 
+
+
 17)What is Big-(O)-notation?
 
+Big O notation (with a capital letter O, not a zero), also called Landau's symbol, is a symbolism used in complexity theory, computer science, and mathematics to describe the asymptotic behavior of functions. Basically, it tells you how fast a function grows or declines.
+
 18)Outlined different kind of sorting algorithm with time complexity?
+
+ While there are a large number of sorting algorithms, in practical implementations a few algorithms predominate. Insertion sort is widely used for small data sets, while for large data sets an asymptotically efficient sort is used, primarily heap sort, merge sort, or quicksort. Efficient implementations generally use a hybrid algorithm, combining an asymptotically efficient algorithm for the overall sort with insertion sort for small lists at the bottom of a recursion. Highly tuned implementations use more sophisticated variants.
 
 19) Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of adding element.
   b)In terms of removing element.
   c)In terms of searching element.
+O(n)
+O(n^2)
+
+O(n)
+O(1)
+
+
+O(n
+O(n) and o(1)	a.  For adding:  for array	Best
+Worst
+
+Best
+worst
 
 
 
+Average
 
-
-
-
-
-
-
+worst
+	b. For removing:	
+	c. For searching:  for array	
 
 
 

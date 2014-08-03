@@ -8,6 +8,12 @@ public class UseMap {
 	
 	//Implement a method which can add data into a Map
 	public void addElementByMap(String data){
+		Map<String,Integer> map = new HashMap();
+		map.put("Mm", 1);
+		map.put("Aa", 2);
+		map.put("Cc", 3);
+		map.put("Dd", 4);
+		
 		
 	}
 	
@@ -17,8 +23,22 @@ public class UseMap {
 	
 	public Map<String, String> getDataByMap(Map<String,String> map){
 		Map<String, String> mapData = new HashMap<String,String>();
-		
-		return mapData;
+
+           mapData.put("BMW","Red"); 
+           mapData.put("Mercedes"," Red"); 
+
+           mapData.put("Audi","Silver"); 
+        mapData.put("Ford","Black"); 
+
+         for(String key: mapData.keySet()) 
+       System.out.println(key + " - " + mapData.get(key)); 
+       System.out.println(); 
+       String searchKey = "Audi"; 
+      if(mapData.containsKey(searchKey)) 
+
+     System.out.println("Found total " + mapData.get(searchKey) + " "  + searchKey + " cars!\n"); 
+
+                   return mapData;
 	}
 	
 	/*Implement a method that can retrieve data from a Map contains List and it will return data containing in a Map
